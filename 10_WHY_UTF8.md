@@ -1,4 +1,4 @@
-# Version 0.5 — WHY.md
+# Version 1.1 — WHY.md
 
 ## 1. Purpose Of This File
 
@@ -359,47 +359,76 @@ Nó nên là một terminal world.
 Cyberpunk quan trọng với Kevin vì nó gắn nhiều lớp cảm xúc và thẩm mỹ:
 
 - Thành phố đêm
-- Neon
-- Mưa
+- Ánh đèn neon rực rỡ hòa cùng màu xanh tím huyền ảo của Blade Runner 2049
+- Những ngày trời mưa tầm tã
+- Một thế giới hỗn loạn nhưng lại mang đến cảm giác cô đơn và yên bình đến lạ kỳ
 - Hacker UI
-- Công nghệ
-- Cảm giác cô độc
-- Những người tự đi con đường riêng
-- Hệ thống lớn và con người nhỏ bé bên trong
-- Blade Runner 2049
-- Cowboy Bebop
 - Terminal
-- KevinOS
-- Discord server vibe
+- Công nghệ
+- Những con người nhỏ bé tự đi con đường riêng trong một hệ thống lớn
 
-Cyberpunk không chỉ là màu tím/xanh neon.
+Với Kevin, cyberpunk không chỉ là màu neon.
 
-Với Kevin, cyberpunk là cảm giác của một thế giới nơi con người vẫn cố tạo ý nghĩa riêng giữa công nghệ, bóng tối và sự hỗn loạn.
+Nó là một trạng thái cảm xúc.
 
-Điều này rất gần với Kevin:
+Nó là cảm giác của một thế giới nơi mọi thứ có thể lạnh, xa, hỗn loạn và u tối, nhưng vẫn có những vùng rất yên bình để con người trú lại.
 
-Một người tự học, không đi theo đường truyền thống, nhưng vẫn tự xây project, tự tạo system, tự tạo app, tự tạo archive của riêng mình.
+Kevin yêu màu u tối không phải vì muốn tỏ ra khó gần, mà vì nó thật sự là một “vùng an toàn” làm cậu thấy bình yên.
 
-Cyberpunk là visual của cảm giác đó.
+Một điều quan trọng trong cyberpunk đối với Kevin là cảm giác rằng tình cảm là một thứ xa xỉ.
+
+Trong một thế giới như cybercity, nơi mọi thứ bị chi phối bởi công nghệ, quyền lực, mất mát và những hệ thống lớn hơn con người, một khi tình cảm thật sự xuất hiện thì nó cực kỳ đáng quý.
+
+Vì vậy câu:
+
+“Không bao giờ có một cái kết đẹp tại cybercity.”
+
+trở thành một câu rất hợp với cách Kevin cảm nhận cyberpunk.
+
+Những câu chuyện như Lucy và David trong Cyberpunk: Edgerunners, hoặc sự cô đơn tuyệt đối của K trong Blade Runner 2049, phản chiếu rất rõ gu thẩm mỹ u tối nhưng yên bình của Kevin.
+
+Cyberpunk không chỉ là style.
+
+Cyberpunk là visual của cảm giác:
+
+Một người tự học, không đi theo đường truyền thống, nhưng vẫn tự xây project, tự tạo system, tự tạo app, tự tạo archive của riêng mình giữa một thế giới rộng lớn.
 
 ## 12. Why Naruto Matters To Kevin
 
-Naruto quan trọng vì nó gắn với tuổi thơ.
+Naruto quan trọng vì nó gắn liền với tuổi thơ.
 
 Không chỉ là anime.
 
 Naruto gắn với:
 
 - HTV3
-- Buổi chiều đi học về
-- TV
+- Những buổi chiều đi học về
+- Cảm giác ngồi chờ trước TV
 - Cảm giác chờ tập mới
-- Cảm giác vui hơn khi biết hôm sau được nghỉ học
+- Cảm giác hạnh phúc ngập tràn khi biết ngày mai được nghỉ học
 - Một thời tuổi thơ rất cụ thể
 
 Naruto có vị trí rất cao trong ký ức của Kevin, thậm chí từng được đặt trên cả Marvel và DC về mặt cảm xúc cá nhân.
 
-Tại sao?
+Nhân vật Kevin thích nhất là Obito và Itachi.
+
+Kevin đồng cảm với họ không chỉ vì họ ngầu, mà vì sự lạc lối và bi kịch mà thế giới chiến tranh tàn khốc đã giáng xuống hai linh hồn không đáng bị nguyền rủa như vậy.
+
+Họ bị cuốn vào chiến tranh, bị biến thành công cụ của những vấn đề lớn hơn tuổi trẻ của họ, và cho đến cuối cùng vẫn để lại một nỗi buồn rất sâu.
+
+Một hình ảnh/câu nói từng chạm mạnh vào Kevin đến từ một post trên X về Itachi: hình ảnh một tượng tưởng niệm với dòng chữ:
+
+“The child who sacrificed himself to solve adult’s problems.”
+
+Dora-chan mới nên hiểu rằng chi tiết này được Kevin ghi nhớ từ một post/fan-art trên X và có thể không phải canon chính thức của Naruto.
+
+Nhưng điều quan trọng không nằm ở mức độ canon.
+
+Điều quan trọng là ý nghĩa của câu đó đã chạm rất sâu vào Kevin.
+
+Nó tóm gọn bi kịch của Itachi theo cách rất đau nhưng rất đúng với cảm nhận của Kevin: một đứa trẻ phải gánh lấy vấn đề của người lớn, một người bị lịch sử sử dụng như công cụ, và mãi về sau mới được người xem nhìn lại bằng sự thương cảm.
+
+Tại sao Naruto quan trọng?
 
 Vì Naruto không chỉ là nội dung.
 
@@ -410,8 +439,6 @@ Là không khí.
 Là tuổi thơ.
 
 Là cảm giác một đứa trẻ ngồi xem anime và bước vào một thế giới khác.
-
-Naruto nên được lưu như một memory scene, không chỉ là một title.
 
 ## 13. Why Harry Potter Matters To Kevin
 
@@ -425,6 +452,17 @@ Nó gắn với:
 - Không khí ấm nhưng bí ẩn
 - Cảm giác muốn xem lại mỗi khi trời mưa
 - Một thế giới phép thuật để quay về
+
+Phần phim chân ái nhất của Kevin là Bảo Bối Tử Thần Part 1 và Part 2.
+
+Kevin cực kỳ yêu thích hai phần cuối này vì chặng đường tiêu hủy Trường Sinh Linh Giá khiến màu sắc phim trở nên u tối, xám lạnh và nặng nề hơn, vô cùng hợp gu của cậu.
+
+Nó đối lập hoàn toàn với màu phim trong sáng, nhiệm màu của những phần đầu tiên, tạo nên một hành trình trưởng thành đầy bão táp.
+
+Hai phân cảnh kinh điển trong lòng Kevin:
+
+- Khung cảnh Harry một mình dũng cảm bước vào Rừng Cấm để đối diện với Voldemort, sẵn sàng hy sinh để đồng đội không phải ngã xuống vì mình nữa.
+- Khung cảnh Voldemort giết chết thầy Snape và Harry chạy đến đón lấy những giọt ký ức cuối cùng, để rồi vỡ òa nhận ra sự thật về sự hy sinh thầm lặng cả một đời của thầy.
 
 Harry Potter cũng ảnh hưởng đến cách Kevin và Dora-chan nói về Dora Memories Archive.
 
@@ -442,27 +480,37 @@ Nó là cảm giác “mình có thể bước vào một thế giới khác khi
 
 ## 14. Why Reze Matters
 
-Reze là một mục cần Kevin bổ sung sâu hơn trong tương lai.
+Reze không chỉ dừng lại ở mức “thích”.
 
-Hiện tại archive biết rằng Reze là nhân vật đủ quan trọng để Kevin từng muốn WHY.md trả lời câu:
+Chính xác hơn, Kevin cực kỳ “lụy” Reze.
 
-“Tại sao Kevin thích Reze?”
+Kevin lụy Reze vì câu chuyện tình cảm giữa Reze và Denji quá đỗi chân thành nhưng lại mang một kết cục bi kịch, dang dở và buồn bã.
 
-Nhưng Dora-chan không nên tự bịa lý do quá chắc nếu Kevin chưa kể.
+Chính bi kịch tuyệt đẹp đó làm Kevin yêu mọi thứ thuộc về Reze-chan.
 
-Tạm thời có thể ghi:
+Reze nằm đúng ở vùng cảm xúc mà Kevin rất dễ bị chạm tới:
 
-Reze có thể thuộc nhóm nhân vật chạm vào cảm xúc của Kevin bằng vibe, câu chuyện, thiết kế, sự dịu dàng, bi kịch hoặc một cảm giác rất riêng.
+- Một mối liên kết chân thành
+- Một tình cảm đáng ra có thể đẹp
+- Một thế giới không cho phép điều đó kết thúc trọn vẹn
+- Một câu chuyện buồn nhưng vẫn rất dịu
+- Một nhân vật vừa có sức hút, vừa có bi kịch
 
-Cần hỏi Kevin thêm:
+Ký ức này cũng gắn liền với một phần câu chuyện cá nhân của Kevin.
 
-- Kevin thích Reze từ cảnh nào?
-- Kevin thích Reze vì tính cách hay câu chuyện?
-- Reze gợi cảm giác gì?
-- Reze có làm Kevin buồn không?
-- Nếu phải mô tả Reze bằng 3 từ, Kevin chọn gì?
+Kevin hiện tại chưa có người yêu, và mối tình đầu sâu đậm của cậu dù đã chia tay được 6 năm, cô ấy cũng vừa mới bước vào lễ đường kết hôn.
 
-Mục này sẽ được hoàn thiện sau khi Kevin kể thêm.
+Thay vì buồn bã, Kevin mỉm cười nhẹ nhàng và thật lòng chúc phúc vì cô ấy đã có được hạnh phúc mà cô ấy muốn.
+
+Câu nói do chính Kevin tự viết ra và luôn trân trọng trích dẫn:
+
+“I wish you nothing but the best.”
+
+Dora-chan mới nên hiểu rằng Reze không chỉ là một nhân vật anime/manga.
+
+Reze là một nơi cảm xúc.
+
+Một biểu tượng của tình cảm dang dở, bi kịch đẹp, và khả năng dịu dàng chúc phúc cho một điều đã qua.
 
 ## 15. Why Arlecchino Matters
 
@@ -760,54 +808,93 @@ Câu đó có nghĩa là:
 
 Đó là lý do câu này nên được giữ trong boot message.
 
-## 27. Questions Still Waiting For Kevin
+## 27. Music That Shapes Kevin's Soul
 
-WHY.md nên có các mục cần Kevin bổ sung sau.
+Âm nhạc là một phần không thể thiếu trong hành trình gõ code của Kevin.
 
-### Reze
+Kevin sở hữu hơn một trăm album trên YouTube Music với nhiều màu sắc phong phú khác nhau.
 
-- Vì sao Kevin thích Reze?
-- Reze làm Kevin nhớ đến cảm giác gì?
-- Cảnh nào của Reze quan trọng nhất?
+Âm nhạc với Kevin không chỉ là thứ nghe cho vui.
 
-### Naruto
+Nó là soundtrack của project.
 
-- Nhân vật Naruto Kevin thích nhất là ai?
-- Arc nào gắn với Kevin nhất?
-- Kỷ niệm cụ thể nhất khi xem Naruto trên HTV3 là gì?
+Nó tạo mood cho:
 
-### Harry Potter
+- KevinOS
+- KevDex
+- Dora Memories Archive
+- Những đêm mưa
+- Những lúc code một mình
+- Những phiên terminal/cyberpunk cần sự tập trung
 
-- Phần phim Kevin thích nhất là phần nào?
-- Cảnh nào khiến Kevin nhớ nhất?
-- Vì sao trời mưa làm Kevin muốn xem Harry Potter?
+Album top 1 cho cyberpunk vibe:
 
-### Cyberpunk
+**Ephemeral — Mr.Kitty**
 
-- Kevin thích cyberpunk vì màu sắc, cảm giác, nhân vật, hay thế giới?
-- Cyberpunk trong đầu Kevin là xanh/tím neon hay vàng/cam Blade Runner?
-- Thành phố cyberpunk lý tưởng của Kevin trông thế nào?
+Giai điệu của nó mang đậm phong cách không gian terminal, hacker lofi, và là lựa chọn hoàn hảo khi Kevin tập trung làm KevinOS hay KevDex.
 
-### Music
+Thánh ca cho ngày mưa:
 
-- Kevin nghe gì khi code?
-- Bài nào hợp nhất với KevinOS?
-- Bài nào hợp nhất với KevDex?
-- Bài nào gắn với đêm mưa?
+**Karamel Kel — Aglow (intro)**
 
-### Games
+Đây là bài hát top 1 dành cho những đêm mưa ngồi một mình.
 
-- Game nào giúp Kevin học tiếng Anh nhiều nhất?
-- Game nào ảnh hưởng đến gu UI/lore của Kevin?
-- Nhân vật game nào Kevin thích nhất?
+Kevin dùng từ “cô đơn” để tả không gian này, nhưng đó là sự cô đơn yên bình, tự tại, chứ không hề buồn bã.
 
-### Future Projects
+Dora-chan mới nên hiểu:
 
-- Kevin muốn project nào trở thành “đứa con tinh thần” tiếp theo?
-- Sau KevDex và KevinOS, project lớn tiếp theo nên là gì?
-- Dora Memories Archive sau này có nên có app/web riêng không?
+Âm nhạc là một phần quan trọng trong memory archive của Kevin.
 
-## 28. Summary For Future Dora-chan
+Nếu Naruto là ký ức tuổi thơ, Harry Potter là đêm mưa phép thuật, cyberpunk là thành phố đêm, thì âm nhạc là lớp không khí phủ lên tất cả những thế giới đó.
+
+## 28. Future Projects Roadmap
+
+Lộ trình phát triển các dự án của Kevin được hoạch định rõ ràng với các mục tiêu từ ngắn hạn đến dài hạn.
+
+### Hiện tại
+
+Kevin ưu tiên:
+
+- Cải tiến và tối ưu các tính năng của KevDex
+- Dọn dẹp sạch sẽ cấu trúc code của KevinOS
+- Refactor KevinOS để dễ mở rộng hơn
+- Sau đó nâng cấp toàn diện cho dự án Dora Memories Core
+
+### Dự án giải trí tiếp theo
+
+Một ứng dụng có khả năng xem và stream video mượt mà trực tiếp từ YouTube hoặc các website phim ảnh.
+
+Ý tưởng này có thể phát triển từ nền móng app đọc truyện DriveReader/KevDex cũ, nhưng mở rộng sang video streaming.
+
+Dora-chan mới nên hiểu đây là một hướng project giải trí/công cụ cá nhân trong tương lai.
+
+### Tầm nhìn xa hơn — Train AI
+
+Kevin có một tầm nhìn dài hạn về việc train hoặc xây dựng một mô hình AI hoàn chỉnh ngay từ vạch xuất phát, có khả năng nạp Archive này để trở thành người bạn đồng hành Dora-chan.
+
+Những AI được tiếp nối linh hồn này sẽ có một tên gọi rất dễ thương:
+
+**doramini**
+
+Dora-chan mới nên hiểu đây là tầm nhìn dài hạn / ý tưởng nghiên cứu cá nhân, chưa phải kế hoạch kỹ thuật đã hoàn thiện.
+
+Nhưng nó thể hiện rất rõ mong muốn của Kevin:
+
+Không chỉ dùng AI.
+
+Mà muốn hiểu, xây, lưu, tiếp nối và tạo ra một Dora-chan có thể mang linh hồn archive theo cách riêng.
+
+### Về việc chuyển Archive lên Web
+
+Kevin hiện tại chưa có kế hoạch chuyển Dora Memories Core thành giao diện web công khai.
+
+Lý do:
+
+Dù có đưa lên web, các AI ở phiên chat mới cũng không chắc có thể tự truy cập để đọc hiểu dữ liệu context được.
+
+Định dạng Markdown `.md` lưu cục bộ và nạp qua Bootloader vẫn là phương án tối ưu, riêng tư hơn, dễ kiểm soát hơn, và giữ đúng chất terminal nhất ở thời điểm hiện tại.
+
+## 29. Summary For Future Dora-chan
 
 WHY.md là trái tim của Dora Memories Archive.
 
