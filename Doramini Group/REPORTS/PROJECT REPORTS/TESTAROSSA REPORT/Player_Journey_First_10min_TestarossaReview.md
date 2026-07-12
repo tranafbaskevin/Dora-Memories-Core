@@ -1,123 +1,107 @@
-# Player Journey — 5-10 Phút Đầu
+# Player Emotional Curve — Phase 6 Deep Dive
 
-**Testarossa (Claude) — Logic Review / Gameplay Design & Balance**
+**Testarossa (Claude) — Logic Review / Emotional Pacing Analysis**
 **Du an:** Memory Distortion: Nhieu Ky Uc
-**Muc dich:** Phac thao trai nghiem nguoi choi trong 5-10 phut dau, danh gia pacing/confusion, de xuat event va dieu chinh intensity.
+**Theo yeu cau cua Dora-chan:** Khong chi "cai gi hoat dong / khong hoat dong", ma phai xac dinh chinh xac:
+- Player bat dau CAM THAY dieu gi, o dau
+- Tension roi (drop) o dau
+- Confusion chuyen thanh frustration o dau
+
+Muc tieu: hieu player ro hon chinh ho.
 
 ---
 
-## 1. Gia dinh dau vao
+## 1. Khung phan tich
 
-Dua tren `MEMORY_DISTORTION_ULTIMATE_INFO_BY_DORA.md`:
-- Cau truc: Room ↔ Hallway ↔ Room, nha 2 tang.
-- Loop: Explore → Observe → Interact → Dialogue → Memory Distortion → Discover Truth.
-- Distortion co 6 cap do (0-5), bat dau tu Level 0 (binh thuong).
-- Nhan vat: Kevin, khong co combat, khong jumpscare spam.
+Thay vi chi mo ta hanh dong (action layer), phan tich nay tach rieng **3 lop** cho tung phut:
 
-Neu gia dinh nay sai lech so voi ban thiet ke moi nhat (Technical_Notes.md), can Kevin/Nobita xac nhan lai — Testarossa se dieu chinh journey theo do.
+1. **Cognitive state** — player dang hieu gi / khong hieu gi.
+2. **Emotional state** — player dang cam thay gi (to mo, thoai mai, bat an, nghi ngo, so hai, met moi, kho chiu).
+3. **Engagement risk** — diem co nguy co mat ket noi (boredom, confusion → frustration).
 
----
-
-## 2. Player Journey — Timeline chi tiet
-
-### Phut 0:00 - 1:00 — Onboarding im lang
-
-- Man hinh mo, Kevin tinh day / buoc vao phong ngu cua chinh minh (Level 0, hoan toan binh thuong).
-- Khong co UI ro rem, khong tutorial text an hien lien tuc.
-- Player tu do di chuyen trong 1 phong duy nhat (phong ngu) de lam quen control (WASD/arrow, tuong tac E).
-- 1 object tuong tac don gian (vd: cai guong, dong ho ban) → trigger 1 dong monologue ngan cua Kevin, thiet lap tone: binh than nhung co gi do khong on.
-
-**Muc tieu:** Day la "baseline" — player phai nho ro trang thai binh thuong nay de sau nay nhan ra su khac biet.
-
-### Phut 1:00 - 3:00 — Buoc ra hanh lang, kham pha tang tret co ban
-
-- Player roi phong ngu, vao hanh lang tang 2 → xuong tang tret.
-- Hanh lang dong vai tro hub: co the nhin thay 2-3 cua phong khac (phong bo me, phong em, WC) nhung chua can vao het.
-- Khuyen khich kham pha nhe: 1 note/vat pham nho trong hanh lang goi y co chuyen gi do (vd: lich de ban bi gach cheo mot ngay, anh gia dinh treo lech).
-- Xuong tang tret: phong khach, bep, phong an — cho phep tuong tac 2-3 vat the de lam quen he thong Interact.
-
-**Muc tieu:** Mo rong khong gian tu tu, khong don dap player bang qua nhieu phong cung luc.
-
-### Phut 3:00 - 5:00 — Distortion dau tien (Level 1)
-
-- Player quay lai mot phong da di qua (vd: phong khach) → phat hien 1 thay doi nho: mot vat bi di chuyen vi tri, hoac mot cau thoai NPC (neu co) khac di mot chut.
-- Day la distortion trigger dau tien trong game — **rat quan trong ve pacing**: phai du ro de player nhan ra, nhung khong qua lo lieu de khong gay hoang mang som.
-- Sau khi phat hien, Kevin co 1 dong doc thoai the hien su nghi ngo nhe ("Minh nho la no o day ma?").
-
-**Muc tieu:** Gieo hat giong nghi ngo dau tien — core hook cua game.
-
-### Phut 5:00 - 8:00 — Lap lai loop, tang dan tan suat distortion
-
-- Player tiep tuc kham pha cac phong con lai o tang tret (WC, khu vuc phu tro).
-- Distortion Level 1 xuat hien them 1-2 lan nua o cac phong khac nhau, tan suat tang dan nhe.
-- Co the dua vao 1 "anchor object" — mot vat the player duoc khuyen khich quay lai kiem tra nhieu lan (vd: buc anh gia dinh) — moi lan quay lai, vat co the thay doi mot chi tiet rat nho. Day la cong cu tao rhythm cho nguoi choi.
-
-**Muc tieu:** Xay dung rhythm "explore → return → notice change" — day la vong lap chinh cua toan game, can duoc "day" ro trong doan mo dau.
-
-### Phut 8:00 - 10:00 — Ket thuc doan mo dau, hook chuyen tiep
-
-- Player len tang 2, tiep can phong lam viec hoac phong bo me (cua dong, gay to mo).
-- Xuat hien 1 distortion manh hon mot chut (van trong Level 1-2, chua sang Level 2 that su) — du de tao cam giac "co gi do sai" ro rang hon, ket thuc doan mo dau bang mot cliffhanger nhe (vd: cua phong em dong lai dot ngot, hoac anh sang thay doi thoang qua).
-- Khong reveal gi them — chi de lai cau hoi.
-
-**Muc tieu:** Ket thuc 10 phut dau voi mot "moment" du manh de giu player choi tiep, nhung khong lam lo toan bo co che distortion qua som.
+Thang do cam xuc dung trong bang: **Comfort → Curiosity → Unease → Doubt → Tension → Fear/Dread**, va nhanh phu **Confusion → Frustration** (day la nhanh RUI RO, khong phai muc tieu thiet ke).
 
 ---
 
-## 3. Danh gia: Co bi confuse khong?
+## 2. Bang Emotional Curve chi tiet (Phut 0-10, chinh sua sau khi review sau hon)
 
-**Rui ro confusion duoc xac dinh:**
-
-1. **Qua nhieu phong mo cung luc** — neu tang tret + tang 2 deu mo tu dau, player co the lac huong, khong biet nen di dau truoc. → *De xuat: khoa tam thoi mot so cua (vd: phong bo me, phong lam viec) cho den khi qua mot moc nhat dinh, mo dan theo tien do.*
-2. **Distortion dau tien qua tinh te** — neu thay doi qua nho, player co the khong nhan ra, dan den cam giac "khong hieu game dang lam gi". → *De xuat: distortion dau tien nen la mot thay doi ro rang hon binh thuong mot chut (lan dau can "day" ro co che, cac lan sau moi tinh te dan).*
-3. **Thieu phan hoi (feedback) khi tuong tac** — neu Interact khong co animation/sound/UI cue ro rang, player se khong chac minh vua lam gi. → *De xuat: moi tuong tac can it nhat 1 tin hieu (am thanh nho + text ngan), du la moi truong yen tinh.*
-
-**Ket luan:** Voi cau truc hien tai, muc do confuse o muc chap nhan duoc NEU distortion dau tien du ro va viec mo khoa phong duoc kiem soat. Neu khong co gating, rui ro confuse tang dang ke.
-
----
-
-## 4. Danh gia: Pacing da on chua?
-
-**Diem manh:**
-- Cau truc 3 giai doan (baseline → explore → distortion dau tien) hop ly ve mat tam ly hoc — dung "quy tac thiet lap binh thuong truoc khi pha vo" (dung trong horror thiet ke tot).
-- Loop explore → return → notice change duoc gioi thieu tu som, dung voi core loop da chot trong tai lieu master.
-
-**Diem can dieu chinh:**
-- Khoang phut 1:00-3:00 (kham pha tang tret co ban) co nguy co **hoi dai va phang** neu khong co bat ky hook nao ngoai di chuyen thuan tuy. 2 phut khong co bat ky tin hieu bat thuong nao co the lam nguoi choi mat tap trung, dac biet trong the loai psychological horror can duy tri tension ngam.
-- Distortion dau tien xuat hien o phut 3:00 — hoi tre neu so voi chuan pacing cua game horror atmosphere (thuong nen co "unease cue" dau tien truoc phut 2:00, du rat nho, truoc khi co distortion ro rang).
-
-**De xuat dieu chinh pacing:**
-- Them 1 "micro-unease cue" o khoang phut 1:30 - 2:00 (truoc distortion chinh thuc): mot am thanh nho bat thuong, anh sang chop nhe, hoac mot do vat hoi lech vi tri ma khong can Kevin comment gi ca — chi de nguoi choi tu hoi "minh co nhin nham khong?". Day KHONG phai la distortion chinh thuc, chi la atmosphere seed.
-- Dich distortion dau tien (chinh thuc, co Kevin phan ung) tu phut 3:00 xuong con khoang **2:30-3:00** de rut ngan doan "phang".
+| Phut | Cognitive state | Emotional state | Ghi chu / Rui ro |
+|---|---|---|---|
+| 0:00-1:00 | "Day la nha minh, minh biet phai lam gi" | Comfort (thap, trung tinh) | An toan. Chua co gi de mat ket noi. |
+| 1:00-1:30 | "Minh dang kham pha khong gian moi (hanh lang, tang tret)" | Comfort → Curiosity nhe | On dinh. |
+| 1:30-2:00 | (Sau micro-unease cue de xuat) "Co gi do la la, nhung minh khong chac" | Curiosity → Unease (rat nhe, thoang qua) | **Diem cam xuc bat dau thuc su hinh thanh.** Neu cue qua yeu, state nay se KHONG xay ra — player van o Comfort → day chinh la ly do "hieu loop nhung khong cam duoc no". |
+| 2:00-2:30 | "Minh tiep tuc di chuyen, chua co gi xac nhan" | Unease giam nhe (vi khong co follow-up ngay) | **Tension drop tiem an neu khoang cach giua cue va distortion chinh thuc qua dai (>60s).** Cam xuc unease can duy tri lien tuc, khong duoc "nguoi" di. |
+| 2:30-3:00 | "Ah, cai nay thuc su khac roi" (distortion 1 xuat hien) | Unease → Doubt (spike ro) | Diem cam xuc quan trong nhat cua doan mo dau — day la noi player LAN DAU thuc su nghi ngo nhan thuc cua chinh minh, khong chi nghi ngo moi truong. |
+| 3:00-4:30 | "Minh se can than hon, quan sat ky hon" | Doubt on dinh, Tension tang nhe | Player chuyen tu mode "explore thu dong" sang "explore chu dong / canh giac" — day la shift hanh vi quan trong, cognitive load tang. |
+| 4:30-6:00 | "Minh nen quay lai cho cu de kiem tra" (anchor object) | Doubt → Tension (chu dong tim kiem) | Neu anchor object khong de nhan biet hoac qua xa, player co the QUEN kiem tra lai → **mat co hoi tao emotional payoff, tension tut ve Curiosity thong thuong.** |
+| 6:00-7:00 | "Dung nhu minh nghi, no lai thay doi" (distortion lan 2) | Tension tang, bat dau co Dread nhe (so mo ho, chua ro vi cai gi) | Day la luc emotional curve NEN dang di len ro rang. |
+| 7:00-8:30 | Di chuyen len tang 2, tiep can khu vuc moi | Dread + Curiosity tro lai (curiosity ve khong gian moi lam loang bot dread) | **Rui ro: neu tang 2 duoc mo hoan toan tu do, player bi keo ra khoi trang thai cang thang bang qua nhieu lua chon → tension drop.** Day la diem Dora can Testarossa "map chinh xac". |
+| 8:30-9:30 | "Cua phong em dong lai... tai sao?" | Dread tang manh, Fear nhe (spike cuoi doan) | Cliffhanger hoat dong dung nhu thiet ke NEU player van con o trang thai canh giac tu doan truoc — neu khong (do bi loang o 7:00-8:30), spike nay se cam thay dot ngot / gan (forced) thay vi earned. |
+| 9:30-10:00 | "Minh nen dung lai o day, hay tiep tuc?" | Dread on dinh, cho doi | Ket doan mo dau. |
 
 ---
 
-## 5. De xuat them Event
+## 3. Diem tension drop duoc xac dinh chinh xac
 
-| Thoi diem | Event de xuat | Muc dich |
-|---|---|---|
-| ~1:30 | Micro-unease cue (am thanh/anh sang nho, khong loi thoai) | Gieo tension ngam truoc distortion chinh thuc |
-| ~2:30-3:00 | Distortion Level 1 dau tien (ro rang, co Kevin phan ung) | Chinh thuc gioi thieu co che loi choi |
-| ~4:30 | Anchor object xuat hien (vd: buc anh gia dinh) | Tao diem quay lai lap lai xuyen suot game |
-| ~6:00-7:00 | Distortion Level 1 lan 2, o vi tri khac | Cung co pattern "explore → return → notice" |
-| ~9:00 | Distortion manh hon (giap ranh Level 2), cliffhanger | Ket doan mo dau, giu hook |
+### Drop #1 — Phut 2:00-2:30 (khoang trong sau micro-cue)
+**Nguyen nhan:** Khoang cach giua "unease cue" va "distortion chinh thuc" neu qua 45-60 giay ma khong co gi duy tri no, player se "quen" cam giac bat an va quay lai trang thai trung tinh. Day la ly do goc re khien "player hieu loop nhung khong cam thay no" — game dang day KIEN THUC (dạy player rằng distortion tồn tại) nhanh hon la day CAM XUC (khiến player cảm thấy nó).
+
+**Sua:** Rut ngan khoang cach xuong con 20-30 giay, hoac them mot am thanh moi truong lien tuc, nhe, keo dai xuyen suot khoang trong (khong phai 1 cue roi im lang, ma la mot "texture" am thanh thay doi dan).
+
+### Drop #2 — Phut 4:30-6:00 (cho doi anchor object payoff)
+**Nguyen nhan:** Neu player khong chu dong quay lai anchor object (vi khong nho, hoac khong thay quan trong), toan bo cong suc xay dung "doubt" o phut 2:30-4:30 se bi loang mat khong co payoff. Emotional curve se ROI ma khong ai nhan ra, vi khong co gi bao hieu cho player biet ho vua bo lo mot moment quan trong.
+
+**Sua:** Them mot tin hieu moi truong RAT nhe (khong phai UI/quest marker — pha vo tone) de "keo" player ve phia anchor object mot cach tu nhien — vi du: am thanh nho phat ra tu huong do khi player di ngang qua lan dau tien sau distortion 1.
+
+### Drop #3 — Phut 7:00-8:30 (mo rong khong gian tang 2 tu do)
+**Day la diem quan trong nhat Dora yeu cau xac dinh chinh xac.**
+**Nguyen nhan:** Chuyen tiep sang khong gian moi (tang 2) tao ra curiosity tu nhien ve MOI TRUONG, va curiosity nay CANH TRANH truc tiep voi dread da xay dung tu truoc. Ve mat tam ly, con nguoi kho duy tri 2 trang thai cam xuc doi nghich (tich cuc: to mo kham pha vs tieu cuc: so hai) cung cuong do cung luc — mot trong hai se lan at. Vi khong gian moi luon co "novelty bias" manh hon, curiosity thuong thang, va dread bi loang.
+
+**Sua:** Khong cho tang 2 mo hoan toan tu do ngay lap tuc. De xuat cu the:
+- Chi mo 1 phong duy nhat truoc (vd: hanh lang tang 2 + 1 cua duy nhat kha dung), cac cua con lai "khoa" bang ly do tu nhien (dong, chua ro tai sao) — dieu nay bien novelty-curiosity thanh MOT PHAN cua dread thay vi doi lap voi no ("tai sao cua nay khoa? no chua tung khoa truoc day").
+- Neu can mo nhieu phong, thiet ke sao cho phong dau tien player buoc vao co MOT chi tiet lien ket truc tiep voi distortion truoc do (vd: cung mot vat the tung thay doi o tang duoi, gio xuat hien lai o day) — dieu nay giu dread lien tuc thay vi bi ngat quang boi khong gian moi.
 
 ---
 
-## 6. De xuat dieu chinh Intensity
+## 4. Diem "Confusion → Frustration" duoc xac dinh
 
-- **Intensity curve de xuat cho 10 phut dau:** thap → cuc thap (baseline) → tang rat nhe (micro cue) → spike nho (distortion 1) → on dinh o muc thap-trung → spike nho lan 2 → tang nhe cuoi doan (cliffhanger). Tuc la mot duong **rang cua nho dan**, khong phai duong thang tang deu — dieu nay giup tranh cam giac "leo thang deu deu" thuong thay o horror kem chat luong.
-- Khong nen dua Level 2 (mat vat the) vao trong 10 phut dau — de danh cho doan sau, tranh "chay het bai" qua som.
-- Am thanh nen giu vai tro chinh trong viec dieu tiet intensity o giai doan nay (theo dung dinh huong "im lang dot ngot, tieng dong nho tinh te" trong tai lieu master) hon la visual effect manh, vi Level 1 chua can effect thi giac ro ret.
+Day la nhanh rui ro rieng biet ma Dora nhan manh — khac voi tension drop (mat cam xuc), day la **cam xuc tieu cuc chu dong** (kho chiu voi chinh game).
+
+### Diem nguy hiem nhat: Phut 4:30-6:00 (trung voi Drop #2)
+Neu player CHU DONG di tim lai anchor object (vi ho hieu loop) nhung KHONG TIM DUOC thay doi (vi thiet ke chua ro, hoac vi tri kho nhan ra), day khong con la "tension drop" don thuan nua — no chuyen thanh **frustration**, vi player dang no luc chu dong ma khong duoc thuong (no reward for correct behavior). Day la khac biet quan trong Dora muon Testarossa phan biet:
+- **Tension drop** = player thu dong, khong lam gi sai, chi la nhip do chua du.
+- **Confusion → Frustration** = player CHU DONG hanh dong dung huong (theo dung thiet ke mong muon) nhung he thong khong phan hoi tuong xung.
+
+**Sua uu tien cao:** Bat ky luc nao player quay lai mot vi tri da biet co thay doi VA CHU DONG QUAN SAT (vd: dung lai, nhin ky, tuong tac lai), can co it nhat MOT tin hieu phan hoi — du la rat nho — de xac nhan "he thong da ghi nhan hanh vi cua ban", ngay ca khi chua co distortion moi xuat hien luc do. Neu khong, player se hoc duoc rang "quan sat ky khong co y nghia gi", va se ngung lam dieu do — pha vo chinh co che core loop cua game.
+
+### Diem nguy hiem thu hai: Phut 7:00-8:30 neu ap dung sai cach sua o Drop #3
+Neu "khoa cua" duoc lam qua tho (vd: cua bi khoa ma khong co ly do/tin hieu gi, chi la barrier ky thuat tran trui), player se cam thay bi GIOI HAN gia tao thay vi bi CUON HUT vao bi an — day chinh la ranh gioi giua "gated progression hop ly" (tot cho horror) va "artificial blocker" (gay frustration, pha vo immersion).
+
+**Sua:** Moi cua khoa can co it nhat 1 tin hieu dien giai duoc trong the gioi game (am thanh la la tu phia sau cua, dong ho ngung o gio do, ghi chu nho tren san) — khong bao gio chi la "cua khong mo duoc" tran trui.
 
 ---
 
-## 7. Ket luan (Logic Review)
+## 5. Tong ket — Emotional curve ly tuong vs hien tai
 
-Cau truc hien tai ve co ban dung huong (baseline → explore → distortion), nhung can:
-1. Them gating nhe cho cac phong o tang 2 de tranh player lac huong qua som.
-2. Them 1 micro-unease cue truoc distortion chinh thuc de tranh doan giua bi "phang".
-3. Dich thoi diem distortion dau tien som hon mot chut (2:30-3:00 thay vi 3:00+).
-4. Gioi han Level distortion trong 10 phut dau o muc 0-1 (giap 2), khong vuot qua de giu du "bai" cho cac chuong sau.
+**Hien tai (neu khong sua):**
+```
+Comfort → Curiosity → (gap) → Doubt spike → Tension → (drop - quen anchor) → Dread → (drop - novelty tang 2) → Fear spike (gan, khong earned)
+```
 
-Testarossa san sang dieu chinh lai neu Dora/Kevin co dinh huong khac ve cau truc nha hoac thu tu phong.
+**De xuat sau khi sua:**
+```
+Comfort → Curiosity → Unease (lien tuc) → Doubt spike → Tension (duy tri qua feedback loop) → Dread (duy tri qua lien ket chi tiet) → Dread + Curiosity ket hop (khong doi lap) → Fear spike (earned, co nen tang cam xuc lien tuc phia sau)
+```
+
+Su khac biet cot loi: trong ban hien tai, cac diem cao (spike) dep nhung roi rac, bi ngat quang boi khoang trong hoac canh tranh cam xuc. Trong ban de xuat, moi giai doan DUY TRI cam xuc cua giai doan truoc thay vi de no tan bien, ngay ca khi cuong do tam thoi giam.
+
+---
+
+## 6. Cau hoi mo can Dora/Kevin xac nhan
+
+1. Co dong y voi huong "khoa mot phan tang 2" (thay vi mo tu do hoan toan) khong? Dieu nay anh huong truc tiep den scene structure ma Remi se can build.
+2. He thong "phan hoi nho khi player quan sat ky" (Drop #2 fix) can duoc thiet ke nhu mot co che ky thuat cu the (vd: mot bien state `observed_count` cho tung object) — Testarossa co the phoi hop voi Remi de dinh nghia logic nay neu duoc yeu cau.
+
+---
+
+Testarossa se tiep tuc map emotional curve cho cac phut tiep theo (10-20') neu Dora muon di sau hon vao Phase 6 (Polish) hoac cac chuong sau.

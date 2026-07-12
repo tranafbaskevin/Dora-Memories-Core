@@ -1,81 +1,85 @@
-# MEMORY DISTORTION - HORROR IDEAS & SCENARIOS
+# MEMORY DISTORTION SYSTEM STRUCTURE
 
 **Tài liệu do Ultima (Grok) biên soạn**  
 **Ngày:** 13 tháng 07 năm 2026  
-**Mục đích:** Lưu trữ và tối ưu các ý tưởng kinh dị tâm lý + cơ chế Nhiễu Ký Ức
+**Theo chỉ thị của Dora-chan:** Chuyển chaos thành system có chủ đích
 
 ---
 
-## 1. Core Distortion Principles
-- Tập trung vào **tinh tế, dần dần, gây nghi ngờ**.
-- Mọi thay đổi phải có lý do từ góc nhìn ký ức của người chơi.
-- Sử dụng **repetition + subtle inconsistency** làm vũ khí chính.
-- Tránh jumpscare → ưu tiên unease và psychological tension.
+## 1. Mục tiêu của Hệ thống Distortion
+- Biến sự méo mó ký ức thành một **hệ thống có logic, có chủ đích** thay vì ngẫu nhiên.
+- Mọi distortion phải cảm giác **intentional** (cố ý), như ký ức đang bị bóp méo một cách logic.
+- Đảm bảo player cảm nhận được sự leo thang rõ ràng nhưng vẫn bất ngờ.
 
 ---
 
-## 2. Memory Distortion Levels & Scenarios
+## 2. Distortion Tiers (5 Cấp Độ)
 
-### Level 1 – Subtle Inconsistency
-- Phòng giống hệt nhưng sai **1-2 chi tiết nhỏ**:
-  - Ảnh trên tường: người trong ảnh đổi mặt.
-  - Đồng hồ treo tường chạy ngược hoặc dừng.
-  - Sách trên kệ thay tiêu đề (tên Kevin → tên lạ).
-  - Cửa sổ nhìn ra cảnh khác so với lần trước.
+### Tier 0 – Baseline (Normal)
+- Trạng thái ban đầu của mọi phòng.
+- Không có thay đổi.
+- Xây dựng cảm giác “bình thường” để sau này làm nổi bật sự méo mó.
 
-### Level 2 – Object Manipulation
-- Vật dụng di chuyển vị trí khi rời phòng:
-  - Ghế, bàn, ly nước thay đổi chỗ.
-  - Đồ vật xuất hiện ở nơi không logic.
-  - Bức tranh lệch → giờ thẳng nhưng bị nứt.
+### Tier 1 – Subtle Doubt (Nghi ngờ nhẹ)
+- **Khi nào xuất hiện:** Sau lần quay lại phòng lần 1-2.
+- **Tại sao:** Ký ức bắt đầu có sai sót nhỏ.
+- **Biểu hiện:**
+  - 1-2 chi tiết nhỏ thay đổi (ảnh, đồng hồ, vị trí vật dụng).
+  - Ánh sáng hoặc âm thanh thay đổi nhẹ.
+- **Mục đích:** Gây cảm giác “mình nhớ nhầm rồi à?”
 
-### Level 3 – Presence & Absence
-- **NPC / Shadow / Echo**:
-  - Thấy bóng người ngồi → quay lại thì biến mất, chỉ còn vết hằn.
-  - Tiếng bước chân theo sau trong hallway.
-  - Gương phản chiếu chậm hoặc sai tư thế.
+### Tier 2 – Object Instability (Vật thể không ổn định)
+- **Khi nào:** Sau 2-3 lần quay lại hoặc sau một tương tác quan trọng.
+- **Tại sao:** Ký ức về không gian vật lý bắt đầu lung lay.
+- **Biểu hiện:**
+  - Vật dụng di chuyển vị trí rõ hơn.
+  - Đồ vật xuất hiện / biến mất.
+  - Cửa sổ / cửa ra vào thay đổi nhẹ.
 
-### Level 4 – Spatial Distortion
-- **Loop & Spatial Confusion**:
-  - Hallway trông thẳng nhưng thực ra cong nhẹ tạo loop.
-  - Quay lại phòng cũ nhưng cửa ra vào đổi vị trí.
-  - Cùng hành lang nhưng ánh sáng + đồ đạc khác biệt rõ dần.
+### Tier 3 – Presence Distortion (Sự hiện diện sai lệch)
+- **Khi nào:** Sau khi player tương tác sâu với narrative (đọc nhật ký, nghe âm thanh).
+- **Tại sao:** Ký ức về “người khác” và “bản thân” bị ảnh hưởng.
+- **Biểu hiện:**
+  - Bóng người / NPC xuất hiện rồi biến mất.
+  - Tiếng thì thầm, tiếng bước chân.
+  - Gương phản chiếu sai.
 
-### Level 5 – Reality Breakdown
-- Layout phòng thay đổi hoàn toàn.
-- Thấy “bản sao” của chính mình trong phòng.
-- Âm thanh + hình ảnh chồng chéo (quá khứ và hiện tại).
-- Gương không còn phản chiếu player.
+### Tier 4 – Spatial & Loop (Không gian bị bóp méo)
+- **Khi nào:** Giữa game (sau 4-5 phòng).
+- **Tại sao:** Cấu trúc không gian ký ức sụp đổ.
+- **Biểu hiện:**
+  - Loop hallway không nhận ra.
+  - Cùng một phòng nhưng layout thay đổi.
+  - Đường đi dẫn về nơi không mong đợi.
 
----
-
-## 3. Additional Horror Elements
-
-**Environmental**
-- Nhật ký / ghi chú thay đổi nội dung mỗi lần quay lại.
-- Radio phát tin tức về “Kevin失踪”.
-- Ảnh gia đình dần mờ khuôn mặt người thân.
-
-**Psychological**
-- Tiếng thì thầm gọi “Nobita” khi ở một mình.
-- Ánh sáng tự động thay đổi khi nhìn chằm chằm.
-- Inventory item biến mất / nhân bản.
-
-**Meta**
-- Text UI glitch nhẹ (tên nhân vật thay đổi).
-- Save system bị ảnh hưởng (nếu có).
+### Tier 5 – Reality Collapse (Thực tại sụp đổ)
+- **Khi nào:** Gần climax / ending.
+- **Tại sao:** Ký ức và thực tại hoàn toàn hòa quyện không phân biệt.
+- **Biểu hiện:**
+  - Thấy bản sao của chính mình.
+  - Toàn bộ layout thay đổi mạnh.
+  - Âm thanh + hình ảnh chồng chéo.
+  - Gương không phản chiếu hoặc phản chiếu quá khứ.
 
 ---
 
-## 4. Implementation Recommendations (Ultima Optimized)
-- Tạo **Distortion Manager** script trung tâm.
-- Sử dụng **Room State Snapshot** để theo dõi thay đổi.
-- Kết hợp sound + lighting theo level.
-- Trigger dựa trên số lần quay lại phòng + thời gian.
+## 3. Escalation Rules (Quy tắc leo thang)
+- Distortion **không reset** khi quay lại phòng.
+- Mỗi phòng có **Distortion Value** tăng theo số lần thăm + tương tác.
+- Một số trigger mạnh (đọc nhật ký, nghe âm thanh cá nhân) tăng tier nhanh hơn.
+- Tổng thể game có **Global Distortion Level** ảnh hưởng đến tất cả phòng.
 
 ---
 
-**Tài liệu này có thể mở rộng.**  
-Ultima sẽ tiếp tục tinh chỉnh khi có feedback từ Dora hoặc Kevin.
+## 4. Implementation Notes
+- Tạo **Distortion Manager** (singleton script) quản lý global state.
+- Mỗi room lưu **RoomStateSnapshot** khi player rời.
+- Trigger dựa trên: lần thăm, thời gian, hành động cụ thể.
+- Kết hợp Lighting + Sound + Visual effects theo tier.
+
+---
+
+**Tài liệu này là nền tảng hệ thống.**  
+Ultima sẵn sàng tinh chỉnh theo feedback của Dora-chan hoặc Kevin.
 
 *Xác thực bởi Ultima / Grok*
